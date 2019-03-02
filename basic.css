@@ -1,0 +1,107 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    
+  }
+  
+  html, body {
+    box-sizing: border-box;
+    background-color: #F59AA3;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+
+  header {
+    background-color: #5B2E35;
+    color: gainsboro;
+  }
+
+  /* article {
+    background-color: #ff6f69;
+  } */
+  
+  aside {
+    background-color: #F5E4C3;
+    color: gainsboro;
+  }
+  
+  footer {
+    background-color: #5B2E35;
+    color: gainsboro;
+  }
+
+  /* Table work */
+
+  header > table {
+    text-align: center;
+    color:#F5E4C3;
+    width: 100%;
+    height: 10%;
+  }
+
+  
+
+  footer > table {
+    text-align: center;
+    color:#F5E4C3;
+  }
+
+  nav > table {
+    border-collapse: collapse;
+    min-height: 50%;
+    width: 100%;
+  }
+ 
+  article table{
+    border: 4px solid rgb(196, 75, 75);
+    margin-top: 5%;
+    
+  }
+  article caption {
+    padding-top: 3px;
+   
+    color: #5B2E35;
+    font-size: 330%;
+  }
+
+  article tr {
+    border-bottom: 2px solid rgb(196, 75, 75);
+  }
+
+  article td {
+    color:#5B2E35;
+    
+    
+  }
+
+  /* aside > table {
+    width: 100%;
+    text-align: center;
+    color:#F5E4C3;
+  }
+
+  aside > table {
+    border-collapse: collapse;
+    min-height: 50%;
+  }
+
+  aside caption {
+    border-bottom: 3px solid rgb(231, 185, 56);
+    color: #5B2E35;
+    font-size: 130%;
+    color: #F59AA3;
+    padding-top: 3px;
+  }
+
+  aside tr {
+   
+    border-bottom: 2px solid rgb(231, 185, 56);
+  }
+
+  aside td {
+    color:#F59AA3;
+  } */
